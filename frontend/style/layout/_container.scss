@@ -1,0 +1,14 @@
+#mainWrapper {
+    min-width: 320px;
+}
+
+.wrapper {
+    max-width: 1020px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    @include bp ($desktop) {
+        max-width: 1009px;
+    }
+}
+

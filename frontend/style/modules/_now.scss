@@ -1,0 +1,109 @@
+.now {
+    text-align: center;
+    font-size: 36px;
+    padding: 87px 0 100px 0;
+    @include bp ($desktop) {
+        font-size: 28px;
+        padding: 68px 0 80px;
+    }
+    @include bp ($tablet) {
+        padding: 1.5em 1em 2em;
+        line-height: 1.5;
+    }
+
+&__title {
+    margin: 0 0 72px 0;
+    line-height: 1.4;
+    @include bp ($desktop) {
+        margin: 0 0 53px;
+    }
+    @include bp ($mobile) {
+        font-size: 20px;
+    }
+}
+&__title_first {
+    @include bp ($tablet) {
+        margin-bottom: 0.4em;
+    }
+}
+}
+
+.nowButton {
+    margin: 0 auto;
+    width: 345px;
+    display: block;
+    background: $blue;
+    border-radius: 5px;
+    padding: 19px 10px 23px 10px;
+    margin: 0 auto 0;
+    @include bp ($desktop) {
+        width: 300px;
+    }
+    @include bp ($tablet) {
+        width: auto;
+        max-width: 15em;
+        margin: 0 auto;
+        padding: 8px 10px 16px;
+    }
+    @include bp ($mobile) {
+        max-width: 10em;
+    }
+&__text_first {
+    font-size: 20px;
+    text-align: left;
+    margin: 4px 0 7px 72px;
+    text-transform: uppercase;
+     @include bp ($desktop) {
+        font-size: 16px;
+        margin: 7px 0 7px 72px;
+    }
+    @include bp ($tablet) {
+        font-size: 0.8em;
+        margin: 7px 0 -7px 84px;
+    }
+    @include bp ($mobile) {
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+
+    
+}
+&__text_second {
+    font-size: 14px;
+    opacity: 0.6;
+    text-align: left;
+    margin: 0 0 0 72px;
+    @include bp ($desktop) {
+        font-size: 12px;
+    }
+    @include bp ($tablet) {
+        font-size: 0.7em;
+        margin: 0 0 0 85px;
+    }
+    @include bp ($mobile) {
+        font-size: 10px;
+    }
+
+}
+&__img {
+    margin: -3px -15px 0 7px;
+    float: left;
+    overflow: hidden;
+     @include bp ($desktop) {
+        margin: -2px -15px 0 9px;
+    }
+    @include bp ($tablet) {
+        margin: 16px -15px 0 9px;
+    }
+    @include bp ($mobile) {
+        margin: 2px 0px 0 9px;
+    }
+    @include bp (350px) {
+        width: 42px;
+        margin: -4px 0 0px 5px;
+    }
+}
+&:hover {
+    background: $darkblue;
+}
+}

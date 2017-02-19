@@ -1,0 +1,63 @@
+{
+"title": "Letzgro Web and Mobile Development",
+"hire_lezgro": "hire Letzgro",
+"top_menu":[
+{"name": "about", "link": "about", "sub": null},
+{"name": "services", "link": "services", "sub": null},
+{"name": "cloud", "link": "cloud", "sub": null},
+{"name": "mobile", "link": "mobile","sub": null},
+{"name": "portfolios", "link": "portfolios", "sub": null},
+{"name": "blog", "link": "blog","sub": null},
+{"name": "careers", "link": "careers","sub": null}
+],
+  "footer": {
+    "copyright": "AdTrustMedia, LLC. 2016. All rights reserved. All trademarks displayed on this web site are the exclusive property of the respective holders.",
+    "conditions": "Terms  Conditions",
+    "policy": "Privacy Policy",
+    "suggestions": "Have a questions or a suggestions",
+    "feedback": "send feedback"
+  },
+  "header": {
+    "priceSuggester": "Price Suggester",
+    "suggested": "suggested",
+    "bestPrice": "best price for",
+    "sneakers": "sneakers",
+    "price": "$213",
+    "easyInstantSmart": "Easy. Instant. Smart",
+    "possiblePrices": "Get the lowest possible prices instantly",
+    "installPrice": "Install Price Suggester extension into your browser",
+    "useForFree": "Use for free",
+    "registrationForms": "No span and registration forms"
+  },
+  "benefits": {
+    "benefitsTitle": "Price Suggester saves you time and money",
+    "lowestPrices": "We will find the lowest prices for you",
+    "comparison": "Comparison of prices among 1000+ sellers",
+    "globalSupport": "Global supporting and requires no configuration"
+  },
+  "feedback": {
+    "ratingTitle": "Why people choose us",
+    "webstoreRating": "Chrome webstore rating",
+    "slideName": "Boris Grebenschikov",
+    "slideFeedback": "Lorem ipsum dolor sit amet, consectetuer adipiscing sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut.s"
+  },
+  "now": {
+    "nowTitleFirst": "Don't waste your time!",
+    "nowTitle": "Start shopping easily with Price Suggester right now",
+    "nowButtonTextFirst": "Get Price Suggester",
+    "nowButtonTextSecond": "for Google Chrome"
+  },
+  "popupForm": {
+    "formTitle": "Feedback",
+    "lableName": "Your name",
+    "lableEmail": "E-mail",
+    "formTextarea": "Lorem ipsum dolor sit amet, consectetuer adipiscing sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper."
+  },
+  "stores": {
+    "storesTitle": "We work with the best online stores worldwide",
+    "seeAllStores": "See all stores"
+  },
+  "video": {
+    "howWorks": "See how it works"
+  }
+}

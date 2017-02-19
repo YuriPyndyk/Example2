@@ -1,0 +1,242 @@
+.stores {
+    padding: 90px 0 95px 0;
+    @include bp ($desktop) {
+        padding: 73px 0 75px;
+        max-width: 890px;
+    }
+    @include bp ($tabletsmall) {
+        padding: 4.6525em 1.3333em 4.6875em;
+    }
+    @include bp ($tabletsmall2) {
+        font-size: 0.8em;
+    }
+    @include bp ($mobilelarge) {
+        font-size: 0.7em;
+    }
+    @include bp ($mobile) {
+        font-size: 0.5em;
+    }
+
+&__title {
+    font-size: 36px;
+    text-align: center;
+    margin: 0 0 77px 0;
+    @include bp ($desktop) {
+        font-size: 28px;
+        margin: 0 0 60px;
+    }
+    @include bp ($tabletsmall) {
+        font-size: 2.5em;
+    }
+}
+&__first {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 47px 0;
+    @include bp ($tabletsmall) {
+        flex-wrap: wrap;
+        margin: 0 0 4.0625em;
+    }
+}
+&__big {
+    flex-grow: 1;
+    flex-basis: 400px;
+    border-right: 1px solid $lightblue;
+    padding: 90px 0 90px 0;
+    @include bp ($desktop) {
+        padding: 73px 0;
+    }
+    @include bp ($tabletsmall) {
+        flex-basis: 14em;
+        padding: 2.9375em 0;
+    }
+    @include bp ($tabletsmall2) {
+        flex-basis: 16em;
+    }
+    @include bp ($mobilelarge) {
+        flex-basis: 20em;
+    }
+    @include bp ($mobilesmall) {
+        flex-basis: 17em;
+    }
+}
+&__big:nth-child(1){
+    @include bp ($tabletsmall) {
+    border-bottom: 1px solid $lightblue;
+    }
+}
+&__big_second {
+    @include bp ($tabletsmall) {
+        border-right: none;
+        border-bottom: 1px solid $lightblue;
+    }
+}
+&__big_third {
+    border-right: none;
+    @include bp ($tabletsmall) {
+        border-right: 1px solid $lightblue;
+    }
+}
+
+&__big_fourth {
+    display: none;
+    @include bp ($tabletsmall) {
+        display: block;
+        border-right: none;
+    }
+}
+
+&__first_imgFirst {
+    margin: 8px 0px 0px 0px;
+}
+&__first_imgSecond {
+    margin: 0px 0px 0px 0px;
+}
+
+&__first_imgThird {
+    margin: 8px 0px 0px 0px;
+}
+&__big img{
+    @include bp ($mobile) {
+        width: 50%;
+    }
+}
+&__link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    @include bp ($tabletsmall2) {
+        width: 80%;
+        margin: auto;
+    }
+    @include bp ($mobile) {
+        width: 60%;
+        margin: auto;
+    }
+}
+&__second {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 0 65px 0;
+    @include bp ($desktop) {
+        margin: 0 0 47px;
+    }
+    @include bp ($tabletsmall) {
+        padding: 0 2.4em 0;
+    }
+}
+
+&__small {
+    flex-grow: 1;
+    border-right: 1px solid $lightblue;
+    flex-basis: 19%;
+    align-content: stretch;
+    padding: 40px 0;
+    border-bottom: 1px solid $lightblue;
+    @include bp ($desktop) {
+        padding: 31px 0;
+    }
+    @include bp ($tabletsmall) {
+        flex-basis: 7em;
+        padding: 1.6875em;
+    }
+    @include bp ($tabletsmall2) {
+        flex-basis: 8em;
+    }
+    @include bp ($mobile) {
+        flex-basis: 14.5em;
+        padding: 1em 0;
+    }
+    @include bp ($mobilesmall) {
+        flex-basis: 10.9em;
+    }
+    @include bp ($mobilemin) {
+        flex-basis: 25%;
+    }
+ 
+&_first {
+    @include bp ($tabletsmall) {
+        display: none;
+    }
+}
+&_fourth {
+    @include bp ($tabletsmall) {
+        border-right: none;
+    }
+}
+&_fifth {
+    border-right: none;
+    @include bp ($tabletsmall) {
+        border-right: 1px solid $lightblue;
+    }
+    img {
+        @include bp ($mobilelarge) {
+            width: 100%;
+        }
+    }
+}
+
+&_sixth {
+    border-bottom: none;
+    @include bp ($tabletsmall) {
+        border-bottom: 1px solid $lightblue;
+    }
+}
+    &_seventh {
+        border-right: 1px solid $lightblue;
+        border-bottom: none;
+    }
+&_eighth {
+        border-right: 1px solid $lightblue;
+    border-bottom: none;
+    }
+&_ninth {
+        border-right: 1px solid $lightblue;
+    border-bottom: none;
+    } 
+&_last{
+    border-bottom: none;
+    border-right: none;
+}
+
+&_ninth img{
+    @include bp ($mobilelarge) {
+        width: 100%
+    }
+}
+&_seventh {
+    @include bp ($tabletsmall) {
+        border-bottom: 1px solid $lightblue;
+        border-right: none;
+    }
+}
+ img {
+    @include bp ($tabletsmall) {
+        width: 70%;
+    }
+     @include bp ($mobile) {
+        width: 50%;
+    }
+}
+    }
+
+    
+   
+    
+
+
+&__seeall {
+    text-align: center;
+    @include bp ($desktop) {
+        font-size: 1em;
+    }
+&_link {
+    text-decoration: none;
+    color: $blue;
+    font-size: 1.125em;
+}
+
+    }
+}

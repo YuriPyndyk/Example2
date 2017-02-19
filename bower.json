@@ -1,0 +1,26 @@
+{
+  "name": "task1",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "normalize-css": "normalize.css#^5.0.0",
+    "bootstrap": "^3.3.7",
+    "domready": "^1.0.7"
+  },
+  "authors": [
+    "“YuriPyndyk” <svinji@gmail.com>"
+  ],
+  "devDependencies": {
+    "domready": "^1.0.8"
+  }
+}

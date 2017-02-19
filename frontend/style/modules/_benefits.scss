@@ -1,0 +1,133 @@
+
+.benefits {
+    padding: 20px 0 160px 0;
+    @include bp ($desktop) {
+        padding: 20px 0 115px;
+    }
+    @include bp ($tablet) {
+        padding: 20px 18px 115px;
+    }
+    .slick-list {
+        padding-top: 3px !important;
+    }
+    @include bp ($mobile) {
+        font-size: 0.6em;
+    }
+    &__title {
+    font-size: 36px;
+    margin: 72px 0 120px 0;
+    text-align: center;
+    @include bp ($desktop) {
+        font-size: 28px;
+        margin: 53px 0 82px;
+    }
+    @include bp ($tablet) {
+        font-size: 2.5em;
+        margin: 1.125em 0 3.125em;
+        }
+    }
+
+    &__main {
+    display: flex;
+    justify-content: space-around;
+    @include bp ($desktop) {
+        max-width: 865px;
+        margin: 0 auto;
+    }
+    @include bp ($mobile) {
+        flex-direction: column;
+    }
+}
+    &__item {
+    text-align: contain;
+}
+    &__img {
+    width: 122px;
+    height: 122px;
+    margin: 0 auto 50px;
+    border: 1px solid #c1daec;
+    background: url('../images/benefits.png') no-repeat;
+    position: relative;
+    @include bp ($desktop){
+        margin: 0 auto 36px;
+    }
+    @include bp ($tablet) {
+        width: 200px;
+        height: 200px;
+        background-size: 1295px auto;
+    }
+    @include bp ($mobile) {
+        width: 122px;
+        height: 122px;
+        margin: 0 auto 8px;
+        background-size: auto;
+    }
+}
+    &__img:before {
+    content: "";
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    border-top: 4px solid $blue;
+    border-left: 4px solid $blue;
+    top: -4px;
+    left: -4px;
+}
+
+    &__img:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-bottom: 4px solid $blue;
+    border-right: 4px solid $blue;
+    bottom: -4px;
+    right: -4px;
+
+        &_first {
+        background-position: -7px -2px;
+        @include bp ($mobile) {
+        background-position: -7px -2px;
+    }
+}
+        &_second {
+            background-position: -344px -2px;
+        @include bp ($tablet) {
+        background-position: -550px -2px;
+            }
+        @include bp ($mobile) {
+        background-position: -344px -2px;
+    }
+}
+        &_third {
+        background-position: -679px 0;
+        @include bp ($tablet) {
+        background-position: -1100px -2px;
+    }
+        @include bp ($mobile) {
+        background-position: -679px -2px;
+    }
+}
+    }
+    
+&__text {
+    font-size: 1.125em;
+    line-height: 1.8;
+    max-width: 250px;
+    text-align: center;
+    margin: auto;
+    @include bp ($desktop) {
+        font-size: 1em;
+        max-width: 210px;
+    }
+}
+    
+}
+
+.navdots {
+    position: relative;
+}
+.benefits__slider .slick-dots {
+        bottom: -30px;
+        left: calc(50% - 35px);
+    }

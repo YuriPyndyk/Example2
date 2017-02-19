@@ -1,0 +1,6 @@
+@mixin bp ($arg) {
+    @media only screen and (max-width:#{$arg}px) {
+        @content;
+    }
+    
+}

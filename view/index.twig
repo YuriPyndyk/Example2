@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="description" content=""/>
+    <meta name="" content=""/>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/slick.css">
+
+ 
+<title>{{ title }}</title>
+ 
+</head>
+<body>
+<div id="mainWrapper">
+
+    {% include 'layout/_header.twig' %}
+    {% include 'modules/_benefits.twig' %}
+   {% include 'modules/_video.twig' %}
+    {% include 'modules/_stores.twig' %}
+    {% include 'modules/_feedback.twig' %}
+    {% include 'modules/_now.twig' %}
+    {% include 'layout/_footer.twig' %}
+    {% include 'modules/_popupForm.twig' %}
+    
+</div> 
+    <script data-main="js/main" src="js/require.js"></script>
+    <!--
+    <script src="libs/jquery/dist/jquery.js"></script>
+    <script src="js/jquery.slides.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/myslider.js"></script>-->
+</body>
+</html>

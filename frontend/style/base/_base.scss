@@ -1,0 +1,31 @@
+body {
+    font-family: GothamPro;
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+@font-face {
+    font-family: GothamPro;
+    font-weight: normal;
+    src: url(../font/GothamProRegular/GothamProRegular.eot),
+        url(../font/GothamProRegular/GothamProRegular.ttf),
+        url(../font/GothamProRegular/GothamProRegular.woff);
+}
+
+@font-face {
+    font-family: GothamPro;
+    font-weight: bold;
+    src: url(../font/GothamProMedium/GothamProMedium.eot),
+        url(../font/GothamProMedium/GothamProMedium.ttf),
+        url(../font/GothamProMedium/GothamProMedium.woff);
+}

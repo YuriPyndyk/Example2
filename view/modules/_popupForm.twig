@@ -1,0 +1,19 @@
+<div class="form" id="popupForm">
+<h6 class="form__title">{{ popupForm.formTitle }}</h6>
+    <div class="form__close" id="close"></div>
+    <div class="form__box_lable">
+        <lable for="name" class="form__lable">{{ popupForm.lableName }}</lable>
+    </div>
+    <div class="form__box_input">
+        <input type="text" class="form__input" name="name" id="name" required>
+    </div>
+    <div class="form__box_lable">
+        <lable for="email" class="form__lable">{{ popupForm.lableEmail }}</lable>
+    </div>
+        <input type="email" class="form__input" name="email" id="email" required>
+    <textarea name="textarea" class="form__textarea">{{ popupForm.formTextarea }}</textarea>
+    
+    <input type="button" class="form__btn" name="send" value="Send" id="send">
+    <input type="button" class="form__btn" name="cancel" value="Cacel" id="cancel">    
+</div>
+<div class="form__overlay" id="overlay"></div>

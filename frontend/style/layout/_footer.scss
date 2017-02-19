@@ -1,0 +1,110 @@
+#footer {
+    border-top: 1px solid $lightblue;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1190px;
+    margin: auto;
+    padding: 36px 30px 50px 30px;
+    @include bp ($desktop) {
+        max-width: 892px;
+    }
+    @include bp ($tablet) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 4.5625em 2em 3.125em;
+    }
+    @include bp ($mobile) {
+        font-size: 0.7em;
+        padding: 3.5625em 0em 0.125em;
+    }
+}
+.copyright {
+    opacity: 0.6;
+    margin: 0 0 24px 0;
+    @include bp ($tablet) {
+        font-size: 1.25em;
+        line-height: 2;
+        padding: 0 2em;
+    }
+}
+.fotter {
+&__left {
+    flex-basis: 390px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+    font-size: 0.75em;
+    line-height: 1.6;
+    padding: 0 0 0 10px;
+    @include bp ($tablet) {
+        flex-basis: auto;
+        margin: 0 auto;
+    }
+}
+&__link {
+    color: $blue;
+    display: inline-block;
+    margin: 0 0 11px 0;
+    @include bp ($tablet) {
+        font-size: 1.25em;
+    }
+}
+&__feedback {
+    flex-basis: 500px;
+    flex-grow: 0;
+    margin: 0 0 0 200px;
+    @include bp ($desktop) {
+        margin: 0 0 0 95px;
+    }
+    @include bp ($tablet) {
+        order: -1;
+        flex-basis: auto;
+        margin: 0 auto;
+    }
+}
+}
+
+.feedback__title {
+    margin: 0 0 36px 0;
+    font-size: 24px;
+    @include bp ($desktop) {
+        font-size: 18px;
+        margin: 0 0 27px;
+    }
+    @include bp ($tablet) {
+        font-size: 1.75em;
+        margin: 0 0 1.3em 0;
+    }
+}
+.btn {
+&_feedback {
+    font-size: 20px;
+    display: inline-block;
+    padding: 24px 35px 19px 22px;
+    margin: 0 0 0 6px;
+    color: $lightblue;
+    border: 1px solid $lightblue;
+    border-radius: 5px;
+    text-transform: uppercase; 
+    @include bp ($desktop) {
+        font-size: 16px;
+        padding: 21px 29px 14px 20px;
+        margin: 0 0 0 2px;
+    }
+    @include bp ($tablet) {
+        font-size: 1.75em;
+        padding: 0.9em 1.1em 0.9em 1.1em;
+        margin: 0 auto;
+    }
+    @include bp ($mobile) {
+        margin: 0 auto 1.8em;
+    }
+&:hover {
+    background: $lightblue;
+    color: $blue;
+    } 
+    }
+}
+
